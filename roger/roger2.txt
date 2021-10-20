@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+
+	int amplada;
+	int alçada;
+
+	int parquet = 6.25;
+	int socol = 2.2;
+
+	printf("indica la amplada: ");
+	scanf("%d", &amplada);
+
+	printf("\nindica la alçada: ");
+	scanf("%d", &alçada);
+
+
+
+	printf("\nEl nombre de paquets de parquet es %d \n", amplada/parquet);
+	printf("\nEl nombre de paquets de socol es %d \n", alçada/socol);
+	printf("\n");
+
+
+
+
+	return 0;
+}
+
+
+
+
+
+
+
